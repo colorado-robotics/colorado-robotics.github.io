@@ -14,72 +14,44 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="navbar-collapse">
       <ul class="navbar-nav mr-auto">
+        <!-- Meetups -->
         <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-            Posts<span class="caret"></span>
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Meetups<span class="caret"></span>
           </a>
           <ul class="dropdown-menu" role="menu">
             <li>
-              <a href="{{url}}/index.html#Posts"
-                 class="page-scroll">All Posts</a>
+              <a href="https://www.meetup.com/BoulderIsForRobots/"
+                 class="page-scroll">Boulder</a>
             </li>
-            <li class="divider"></li>
-            {% for post in site.categories.blog limit:3 %}
             <li>
-              <a class="post-link"
-                 href="{{ post.url | prepend: site.baseurl }}">
-                - {{ post.title }}</a>
+              <a href="https://www.meetup.com/BoulderIsForRobots/"
+                 class="page-scroll">Denver</a>
             </li>
-            {% endfor %}
           </ul>
         </li>
+
+        <!-- Companies -->
         <li>
-          <a href="{{url}}/snippets/index.html"
+          <a href="{{url}}/companies.html"
              class="page-scroll">Companies</a>
         </li>
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-            About<span class="caret"></span>b
-          </a>
-          <ul class="dropdown-menu" role="menu">
-            <li><a href="{{url}}/about/index.html#About"
-                   class="page-scroll">Bio</a></li>
-            <li><a href="{{url}}/about/index.html#Replica"
-                   class="page-scroll">Replica Labs</a></li>
-            <li><a href="{{url}}/about/index.html#Projects"
-                   class="page-scroll">Projects</a></li>
-            <li><a href="{{url}}/about/index.html#CV"
-                   class="page-scroll">CV</a></li>
-          </ul>
-        </li>
-        <li class="verticalLine">
-          <a class="btn btn-social-icon"
-             href="https://github.com/bminortx">
-            <i class="fa fa-github-alt"></i>
-          </a>
-        </li>
+
+        <!-- News -->
         <li>
+          <a href="{{url}}/news.html"
+             class="page-scroll">News</a>
+        </li>
+
+        <!-- CO. Based research -->
+        <li>
+          <a href="{{url}}/research.html"
+             class="page-scroll">CO. Based Research</a>
+        </li>
+        <li class="verticalline">
+
           <a class="btn btn-social-icon btn-twitter"
              href="https://twitter.com/bminortx">
             <i class="fa fa-twitter"></i>
-          </a>
-        </li>
-        <li>
-          <a class="btn btn-social-icon btn-linkedin"
-             href="https://www.linkedin.com/in/bminortx">
-            <i class="fa fa-linkedin"></i>
-          </a>
-        </li>
-        <li>
-          <a class="btn btn-social-icon btn-instagram"
-             href="https://www.instagram.com/bminortx/">
-            <i class="fa fa-instagram"></i>
-          </a>
-        </li>
-        <li>
-          <a class="btn btn-social-icon btn-angellist"
-             href="https://angel.co/brandon-minor">
-            <i class="fa fa-angellist"></i>
           </a>
         </li>
       </ul>
