@@ -21,7 +21,7 @@ a {
 /* BAM: Base structure */
 body {
   color: #07144b;
-  font-family: "Quicksand";
+  font-family: "Roboto";
   text-align: center;
   background-color: #fff; }
 
@@ -155,7 +155,7 @@ body {
     padding-right: 30px;
     text-align: left; }
   .posts-section .headline {
-    font-family: "Crimson Text";
+    font-family: "Roboto";
     font-size: 16px;
     padding-bottom: 5px; }
   .posts-section .top-headline-cat {
@@ -178,7 +178,7 @@ body {
       padding-bottom: 2px;
       padding-left: 20px; }
   .posts-section h4 {
-    font-family: "Crimson Text";
+    font-family: "Roboto";
     font-weight: 300;
     margin-top: 20px;
     text-align: left;
@@ -201,14 +201,14 @@ body {
       padding-top: 2px;
       padding-bottom: 2px; }
   .past-posts-section h4 {
-    font-family: "Crimson Text";
+    font-family: "Roboto";
     font-size: 16px;
     font-weight: 300;
     margin-top: 12px;
     text-align: right;
     line-height: 100%; }
   .past-posts-section h3 {
-    font-family: "Crimson Text";
+    font-family: "Roboto";
     font-size: 16px;
     font-weight: 300;
     margin-top: 12px;
@@ -236,7 +236,7 @@ body {
     margin-top: 30px;
     font-size: 25px; }
   .cv-section p {
-    font-family: "Crimson Text";
+    font-family: "Roboto";
     font-weight: 300;
     font-size: 16px;
     text-align: left; }
@@ -256,7 +256,7 @@ body {
     font-size: 40px;
     padding-bottom: 20px; }
   .replica-section p {
-    font-family: "Crimson Text";
+    font-family: "Roboto";
     margin: 0 0 10px;
     margin-bottom: 20px;
     font-size: 16px;
@@ -289,7 +289,7 @@ body {
     font-size: 25px;
     text-align: left; }
   .code-section p {
-    font-family: "Crimson Text";
+    font-family: "Roboto";
     font-weight: 300;
     font-size: 16px; }
 
@@ -300,7 +300,7 @@ body {
   background: #fbf8ee; }
 
 .single-post-section, .single-post-section-left, .single-post-section-right, .single-post-section-center, .single-post-section-snippet {
-  font-family: "Crimson Text";
+  font-family: "Roboto";
   font-size: 20px;
   line-height: 1.5;
   font-weight: 100;
@@ -313,7 +313,7 @@ body {
 
 .single-post-section-left, .single-post-section-right, .single-post-section-center {
   background-color: rgba(255, 255, 255, 0);
-  font-family: "Quicksand";
+  font-family: "Roboto";
   text-align: center;
   font-size: 16px;
   padding-top: 5px;
