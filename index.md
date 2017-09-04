@@ -35,7 +35,7 @@ layout: main
       </div>
       <!-- from div the blog as background -->
       <script>
-        document.getElementById("image-header").style.backgroundImage = "url({{post.image}})";
+        document.getElementById("image-header").style.backgroundImage = "url(/images/flatirons.png)";
         document.getElementById("image-header").style.backgroundSize = "cover";
         document.getElementById("image-header").style.backgroundPosition = "center";
         document.getElementById("image-header").style.borderBottom = "5px solid #07144b";
