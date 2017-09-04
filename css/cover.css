@@ -50,10 +50,10 @@ body {
     background-color: #fbf8ee;
     color: #07144b; }
 
-.navbar-brand {
-  padding-top: 15px;
-  padding-left: 15px; }
-
+/* .navbar-brand */
+/*   font-weight: 00 */
+/*   padding-top: 15px */
+/*   padding-left: 15px */
 .container-fluid {
   padding: 0px; }
 
