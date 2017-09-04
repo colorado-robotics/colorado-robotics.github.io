@@ -1,19 +1,19 @@
 <header class="main-header">
   
-  <nav class="navbar navbar-expand-lg navbar-light">
+  <nav class="navbar navbar-expand-md navbar-light">
     <button type="button" 
-            class="navbar-toggler navbar-toggler-right"
+            class="navbar-toggler navbar-toggler-right ml-auto"
             data-toggle="collapse" data-target="#navbar-collapse" 
             aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <a class="navbar-brand" href="{{url}}/">
+    <a class="navbar-brand visible-sm-down" style="position: fixed; left: 0px; top: 0px;" href="{{url}}/">
       Colorado Robotics
     </a>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="navbar-collapse">
-      <ul class="nav ml-auto">
+      <ul class="navbar-nav justify-content-center w-100">
         <!-- Meetups -->
         <li class="dropdown nav-item">
           <a class="dropdown-toggle nav-link active" data-toggle="dropdown" 
@@ -37,21 +37,22 @@
              class="page-scroll nav-link active">Companies</a>
         </li>
 
+        <!-- CO. Based research -->
+        <li class="nav-item">
+          <a href="{{url}}/research.html"
+             class="page-scroll nav-link active">Researchers</a>
+        </li>
+
         <!-- News -->
         <li class="nav-item">
           <a href="{{url}}/news.html"
              class="page-scroll nav-link active">News</a>
         </li>
 
-        <!-- CO. Based research -->
-        <li class="nav-item">
-          <a href="{{url}}/research.html"
-             class="page-scroll nav-link active">CO. Based Research</a>
-        </li>
         <li class="verticalline nav-item">
 
           <a class="btn btn-social-icon btn-twitter"
-             href="https://twitter.com/bminortx">
+             href="https://twitter.com/ColoRobots">
             <i class="fa fa-twitter"></i>
           </a>
         </li>
