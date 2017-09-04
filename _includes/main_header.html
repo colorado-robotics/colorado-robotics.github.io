@@ -1,9 +1,9 @@
 <header class="main-header">
-  
+
   <nav class="navbar navbar-expand-md navbar-light">
-    <button type="button" 
+    <button type="button"
             class="navbar-toggler navbar-toggler-right ml-auto"
-            data-toggle="collapse" data-target="#navbar-collapse" 
+            data-toggle="collapse" data-target="#navbar-collapse"
             aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -16,18 +16,16 @@
       <ul class="navbar-nav justify-content-center w-100">
         <!-- Meetups -->
         <li class="dropdown nav-item">
-          <a class="dropdown-toggle nav-link active" data-toggle="dropdown" 
+          <a class="dropdown-toggle nav-link active" data-toggle="dropdown"
              href="#">Meetups<span class="caret"></span>
           </a>
           <ul class="dropdown-menu" role="menu">
+          {% for meetup in include.meetups_list %}
             <li>
-              <a href="https://www.meetup.com/BoulderIsForRobots/"
-                 class="page-scroll">Boulder</a>
+              <a href="{{ meetup.url }}"
+                 class="page-scroll nav-link">{{ meetup.name }}</a>
             </li>
-            <li>
-              <a href="https://www.meetup.com/BoulderIsForRobots/"
-                 class="page-scroll">Denver</a>
-            </li>
+          {% endfor %}
           </ul>
         </li>
 
