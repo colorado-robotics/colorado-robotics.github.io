@@ -1,17 +1,4 @@
 ---
-meetups_list:
-  - bifr:
-    name: Boulder is for Robots
-    url: https://www.meetup.com/BoulderIsForRobots/
-  - difr:
-    name: Denver is for Robots
-    url: https://www.meetup.com/Denver-Is-For-Robots/
-  - women_in_robotics:
-    name: Women in Robotics
-    url: https://www.meetup.com/Women-in-Robotics-Boulder-Denver/
-  - sharc:
-    name: SHARC
-    url: https://www.meetup.com/SHARC-Greater-Denver-Area-Robotics-Club/
 ---
 
 <!DOCTYPE html>
@@ -21,13 +8,10 @@ meetups_list:
 
   <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-    {% include main_header.html meetups_list=layout.meetups_list %}
+    {% include main_header.html %}
 
-    <!-- The content for the blog -->
     {{ content }}
-    <!-- ...end content -->
 
     {% include main_footer.html %}
-
   </body>
 </html>

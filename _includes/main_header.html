@@ -12,7 +12,7 @@
       <img src="images/colorado-flag-robot-head.png"
            class="align-text-bottom"
            style="width: 2rem; height: 2rem;"/>
-      <span class="h3">Colorado Robotics</span>
+      <span class="h3">ColoRobo</span>
     </a>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -24,7 +24,7 @@
              href="#">Meetups<span class="caret"></span>
           </a>
           <ul class="dropdown-menu" role="menu">
-          {% for meetup in include.meetups_list %}
+          {% for meetup in site.meetups_list %}
             <li>
               <a href="{{ meetup.url }}"
                  class="page-scroll nav-link">{{ meetup.name }}</a>
@@ -35,29 +35,36 @@
 
         <!-- Companies -->
         <li class="nav-item">
-          <a href="{{url}}/companies.html"
+          <a href="{{url}}/companies"
              class="page-scroll nav-link active">Companies</a>
         </li>
 
         <!-- CO. Based research -->
         <li class="nav-item">
-          <a href="{{url}}/research.html"
+          <a href="{{url}}/research"
              class="page-scroll nav-link active">Researchers</a>
         </li>
 
         <!-- News -->
         <li class="nav-item">
-          <a href="{{url}}/news.html"
+          <a href="{{url}}/news"
              class="page-scroll nav-link active">News</a>
         </li>
 
         <li class="verticalline nav-item">
-
           <a class="btn btn-social-icon btn-twitter"
-             href="https://twitter.com/ColoRobots">
+             href="https://twitter.com/{{ site.twitter_username }}">
             <i class="fa fa-twitter"></i>
           </a>
         </li>
+
+        <li class="verticalline nav-item">
+          <a class="btn btn-social-icon btn-github"
+             href="https://github.com/{{ site.github_username }}">
+            <i class="fa fa-github"></i>
+          </a>
+        </li>
+
       </ul>
     </div>
   </nav>
