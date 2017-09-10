@@ -43,19 +43,14 @@
         </li>
         {% endfor %}
 
+        {% for link in site.social_links %}
         <li class="verticalline nav-item">
-          <a class="btn btn-social-icon btn-twitter"
-             href="https://twitter.com/{{ site.twitter_username }}">
-            <i class="fa fa-twitter"></i>
+          <a class="btn btn-social-icon btn-{{ link.fa-icon }}"
+             href="{{ link.url }}">
+            <i class="fa fa-{{ link.fa-icon }}"></i>
           </a>
         </li>
-
-        <li class="verticalline nav-item">
-          <a class="btn btn-social-icon btn-github"
-             href="https://github.com/{{ site.github_username }}">
-            <i class="fa fa-github"></i>
-          </a>
-        </li>
+        {% endfor %}
 
       </ul>
     </div>

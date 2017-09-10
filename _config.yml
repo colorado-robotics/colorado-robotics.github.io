@@ -76,3 +76,10 @@ header_links:
   - url: "/research"
     type: link
     content: Research
+
+social_links:
+  - fa-icon: twitter
+    url: "https://twitter.com/ColoRobots"
+
+  - fa-icon: github
+    url: "https://github.com/colorado-robotics"
