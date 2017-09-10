@@ -5,28 +5,22 @@ layout: main
 
 # TODO: Add logos, description, location.
 companies:
-  - gamma2:
-    name: Gamma 2 Robotics
+  - name: Gamma 2 Robotics
     url: http://gamma2robotics.com
 
-  - occipital:
-    name: Occipital
+  - name: Occipital
     url: http://occipital.com
 
-  - sphero:
-    name: Sphero
+  - name: Sphero
     url: http://sphero.com
 
-  - misty:
-    name: Misty Robotics
+  - name: Misty Robotics
     url: http://mistyrobotics.com
 
-  - lefthand:
-    name: Lefthand Robotics
+  - name: Lefthand Robotics
     url: http://lefthandrobotics.com
 
-  - amp:
-    name: AMP Robotics
+  - name: AMP Robotics
     url: https://www.amprobotics.com
 
 ---

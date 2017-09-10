@@ -4,4 +4,4 @@ permalink: /youth
 layout: main
 ---
 
-# Latest News in ColoRobots
+# Robotics for Kids

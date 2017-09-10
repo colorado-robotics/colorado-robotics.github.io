@@ -18,38 +18,30 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="navbar-collapse">
       <ul class="navbar-nav justify-content-center w-100">
-        <!-- Meetups -->
+        {% for link in site.header_links %}
+        <li class="nav-item">
+          {% if link.type == 'link' %}
+          <a class="page-scroll nav-link active" href={{link.url}}>
+            {{ link.content }}
+          </a>
+          {% elsif link.type == 'dropdown' %}
         <li class="dropdown nav-item">
           <a class="dropdown-toggle nav-link active" data-toggle="dropdown"
-             href="#">Meetups<span class="caret"></span>
+             href="#">{{ link.content }}<span class="caret"></span>
           </a>
           <ul class="dropdown-menu" role="menu">
-          {% for meetup in site.meetups_list %}
+            {% for item in link.items %}
             <li>
-              <a href="{{ meetup.url }}"
-                 class="page-scroll nav-link">{{ meetup.name }}</a>
+              <a href="{{ item.url }}"
+                 class="page-scroll nav-link active">{{ item.name }}</a>
             </li>
-          {% endfor %}
+            {% endfor %}
           </ul>
         </li>
+          {% endif %}
 
-        <!-- Companies -->
-        <li class="nav-item">
-          <a href="{{url}}/companies"
-             class="page-scroll nav-link active">Companies</a>
         </li>
-
-        <!-- CO. Based research -->
-        <li class="nav-item">
-          <a href="{{url}}/research"
-             class="page-scroll nav-link active">Researchers</a>
-        </li>
-
-        <!-- News -->
-        <li class="nav-item">
-          <a href="{{url}}/youth"
-             class="page-scroll nav-link active">Youth</a>
-        </li>
+        {% endfor %}
 
         <li class="verticalline nav-item">
           <a class="btn btn-social-icon btn-twitter"
