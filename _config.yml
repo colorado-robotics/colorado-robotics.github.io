@@ -77,6 +77,10 @@ header_links:
     type: link
     content: Research
 
+  - url: "/sponsors"
+    type: link
+    content: Sponsors
+
 social_links:
   - fa-icon: twitter
     url: "https://twitter.com/ColoRobots"
