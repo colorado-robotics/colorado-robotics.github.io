@@ -15,7 +15,7 @@ layout: main
   </div>
 
   <div class="col text-center">
-    <h3>Latest News</h3>
+    <h3>Recent Events</h3>
     <div>
       <img src="images/colorado-flag-robot-head.png"
            style="height: 10rem;"/>
