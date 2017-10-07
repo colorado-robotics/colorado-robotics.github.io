@@ -7,43 +7,69 @@ layout: main
 companies:
   - name: Gamma 2 Robotics
     url: http://gamma2robotics.com
+    location: Lakewood
+    logo: gamma2.png
 
   - name: Occipital
     url: http://occipital.com
+    location: Boulder
+    logo: occipital.jpg
 
   - name: Sphero
     url: http://sphero.com
+    location: Boulder
+    logo: sphero.jpg
 
   - name: Misty Robotics
     url: http://mistyrobotics.com
+    location: Boulder
+    logo: misty.png
 
   - name: Lefthand Robotics
     url: http://lefthandrobotics.com
+    location: Longmont
+    logo: lefthand.jpg
 
   - name: AMP Robotics
     url: https://www.amprobotics.com
+    location: Denver
+    logo: amp.png
 
+  - name: ThinkTopic
+    url: http://thinktopic.com
+    location: Boulder
+    logo: thinktopic.png
+
+  - name: PickNik Consulting
+    url: http://picknik.ai
+    location: Boulder
+    logo: picknik.jpg
 ---
 
 # Colorado Robotics and AI Companies
 
-<div class="row">
-<div class="col-10">
-
-<ul>
+<div class="card-deck w-100">
 
 {% assign companies = page.companies | sort: 'name' %}
 {% for co in companies %}
+<div class="col-3 mt-5">
+  <div class="card text-center inline-block company-card">
+    <div class="card-img-top company-card-logo-container align-middle">
+        <img class="mx-auto company-card-logo"
+src="images/companies/{{ co.logo }}"
+         alt="{{ co.name }} Logo"/>
+    </div>
 
-<li>
-<span class="h4">{{ co.name }}</span>
-<p/>
-<a href="{{ co.url }}">{{ co.url }}</a>
-</li>
+    <div class="card-body">
+      <h5>{{ co.name }}</h5>
+      <p><a href="{{ co.url }}">{{ co.url }}</a></p>
+    </div>
 
+    <div class="card-footer">
+      <span>{{ co.location }}, CO</span>
+    </div>
+  </div>
+</div>
 {% endfor %}
 
-</ul>
 </div>
-</div>
-

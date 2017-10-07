@@ -407,7 +407,6 @@ footer {
 
 #community-calendar {
   overflow-y: scroll;
-  max-height: 250px;
   background-color: white;
   height: 330px; }
   #community-calendar #community-events .calendar-event {
@@ -420,5 +419,28 @@ footer {
 .sponsor-card .sponsor-image {
   max-height: 100px;
   max-width: 80px; }
+
+#recentEventSlideshow {
+  background-color: #abc; }
+  #recentEventSlideshow .event-carousel-item img.event-carousel {
+    height: 330px; }
+  #recentEventSlideshow .event-carousel-item .carousel-caption {
+    background-color: rgba(100, 100, 100, 0.5);
+    bottom: -20px;
+    top: auto; }
+
+.company-card-logo-container {
+  height: 220px;
+  position: relative;
+  top: 0; }
+  .company-card-logo-container .company-card-logo {
+    max-height: 90%;
+    max-width: 90%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; }
 
 /*# sourceMappingURL=cover.css.map */

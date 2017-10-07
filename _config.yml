@@ -69,13 +69,13 @@ header_links:
     type: link
     content: Companies
 
-  - url: "/youth"
-    type: link
-    content: ColoRoboKids
+  # - url: "/youth"
+  #   type: link
+  #   content: ColoRoboKids
 
-  - url: "/research"
-    type: link
-    content: Research
+  # - url: "/research"
+  #   type: link
+  #   content: Research
 
   - url: "/sponsors"
     type: link

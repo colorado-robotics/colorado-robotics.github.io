@@ -14,13 +14,39 @@ layout: main
     <div id="community-calendar" class="container-fluid"></div>
   </div>
 
-  <div class="col text-center">
+  <div id="recentEventSlideshow" class="col text-center pt-3 pb-4">
     <h3>Recent Events</h3>
-    <div>
-      <img src="images/colorado-flag-robot-head.png"
-           style="height: 10rem;"/>
+    <div id="recentEventCarousel" class="carousel slide rounded"
+         data-ride="carousel">
+      <div class="carousel-inner">
+        {% include event_carousel_item.html
+        caption="Boulder Startup Week Robotics Happy Hour"
+        image="bsw-happy-hour.jpg"
+        extra_class="active" %}
+
+        {% include event_carousel_item.html
+        caption="Boulder Startup Week Robotics Founder Panel"
+        image="bsw-founder-panel.jpg" %}
+
+        {% include event_carousel_item.html
+        caption="Boulder Is For Robots Social @ AMP Robotics"
+        image="amp-social.jpg" %}
+
+        {% include event_carousel_item.html
+        caption="Boulder Startup Week Robotics Researcher Panel"
+        image="bsw-researcher-panel.jpg" %}
+      </div>
+      <a class="carousel-control-prev" href="#recentEventCarousel"
+         role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#recentEventCarousel"
+         role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
-    <span class="block">Coloradans having fun with robots</span>
   </div>
 </div>
 
@@ -32,32 +58,13 @@ layout: main
 
     <div class="row">
       <div class="col text-center">
-
-        <div class="row mt-2">
-          <div class="col text-center">
-            <span class="h4">Boulder Is For Robots</span>
-          </div>
-        </div>
-
-        <div class="row mt-2 justify-content-center">
-          {% include sponsor_card.html
-          sponsor_name="Brad Feld"
-          sponsor_type="Platinum Sponsor"
-          sponsor_image="bfeld.jpg" %}
-
-          {% include sponsor_card.html
-          sponsor_name="Upslope Brewing"
-          sponsor_type="Beer & Happy Hour Sponsor"
-          sponsor_image="upslope.jpg" %}
-
-          {% include sponsor_card.html
-          sponsor_name="Galvanize"
-          sponsor_type="Event Space Sponsor"
-          sponsor_image="galvanize.png" %}
-        </div>
+        {% include bifr_sponsors.html %}
       </div>
     </div>
   </div>
 </div>
 
-<div class="pb-5"></div>
+<script src="/main.js"></script>
+<script>
+  colorobo.core.init();
+</script>
