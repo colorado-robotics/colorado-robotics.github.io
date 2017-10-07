@@ -20,5 +20,14 @@
                                    :main "colorobo.core"
                                    :parallel-build true
                                    :optimizations :advanced
-                                   ;:optimizations :none
+                                   }}
+                       {:id "dev"
+                        :source-paths ["cljs"]
+                        :figwheel {:on-jsload "colorobo.core/init"}
+                        :compiler {:output-to "main.js"
+                                   :output-dir "target/js"
+                                   :asset-path "/target/js"
+                                   :main "colorobo.core"
+                                   :parallel-build true
+                                   :optimizations :none
                                    }}]})
