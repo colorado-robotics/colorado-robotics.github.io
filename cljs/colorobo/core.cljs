@@ -77,7 +77,7 @@
   (reset! events [])
   (doall
    (for [feed cal-feeds]
-     (go (-> (str "http://api.meetup.com/" feed "/events")
+     (go (-> (str "https://api.meetup.com/" feed "/events")
              http/jsonp
              async/<!
              :body

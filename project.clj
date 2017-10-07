@@ -20,6 +20,8 @@
                                    :main "colorobo.core"
                                    :parallel-build true
                                    :optimizations :advanced
+                                   :source-map false
+                                   :pretty-print false
                                    }}
                        {:id "dev"
                         :source-paths ["cljs"]
