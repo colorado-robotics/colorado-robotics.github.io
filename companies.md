@@ -44,6 +44,16 @@ companies:
     url: http://picknik.ai
     location: Boulder
     logo: picknik.jpg
+
+  - name: Canvas Technology
+    url: http://canvas.technology
+    location: Boulder
+    logo: canvas.jpg
+
+  - name: Modular Robotics
+    url: http://modrobotics.com
+    location: Boulder
+    logo: modrobotics.png
 ---
 
 # Colorado Robotics and AI Companies
@@ -52,7 +62,7 @@ companies:
 
 {% assign companies = page.companies | sort: 'name' %}
 {% for co in companies %}
-<div class="col-3 mt-5">
+<div class="col-lg-3 col-md-4 col mt-5">
   <div class="card text-center inline-block company-card">
     <div class="card-img-top company-card-logo-container align-middle">
         <img class="mx-auto company-card-logo"
