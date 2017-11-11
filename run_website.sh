@@ -10,4 +10,4 @@ gem install bundler
 bundle install
 
 # jekyll watches automatically for changes, so this should do it
-jekyll serve
+bundle exec jekyll serve -w --incremental
