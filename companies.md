@@ -54,6 +54,11 @@ companies:
     url: http://modrobotics.com
     location: Boulder
     logo: modrobotics.png
+    
+  - name: Wolf Robotics
+    url: http://wolfrobotics.com
+    location: Fort Collins
+    logo: wolf.jpg
 ---
 
 # Colorado Robotics and AI Companies
