@@ -59,6 +59,11 @@ companies:
     url: http://wolfrobotics.com
     location: Fort Collins
     logo: wolf.jpg
+
+  - name: Robotic Materials
+    url: https://roboticmaterials.com/rm/
+    location: Boulder
+    logo: rm.png
 ---
 
 # Colorado Robotics and AI Companies
