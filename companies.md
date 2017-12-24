@@ -23,7 +23,7 @@ companies:
   - name: Misty Robotics
     url: http://mistyrobotics.com
     location: Boulder
-    logo: misty.png
+    logo: misty.svg
 
   - name: Lefthand Robotics
     url: http://lefthandrobotics.com
@@ -64,6 +64,11 @@ companies:
     url: https://roboticmaterials.com/rm/
     location: Boulder
     logo: rm.png
+
+  - name: Tortuga AgTech
+    url: http://www.tortugaagtech.com/
+    location: Lakewood
+    logo: tortuga.jpg
 ---
 
 # Colorado Robotics and AI Companies
