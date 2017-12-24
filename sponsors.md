@@ -4,7 +4,7 @@ permalink: /sponsors
 layout: main
 ---
 
-# Colorado Robotics Sponsors
+<h1 class="page-title">Colorado Robotics Sponsors</h1>
 
 <div class="row justify-content-md-center">
   <div class="col-auto mt-5">

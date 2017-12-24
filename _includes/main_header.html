@@ -5,7 +5,7 @@
       <img src="images/colorado-flag-robot-head.png"
            class="align-text-bottom"
            style="width: 2rem; height: 2rem;"/>
-      <span class="h3">CoRobo</span>
+      <span class="tall-caps">C</span><span class="small-caps">O</span><span class="tall-caps">R</span><span class="small-caps">OBO</span>
     </a>
 
     <button type="button"
@@ -21,7 +21,7 @@
         {% for link in site.header_links %}
         <li class="nav-item">
           {% if link.type == 'link' %}
-          <a class="page-scroll nav-link active" href={{link.url}}>
+          <a class="nav-link active" href={{link.url}}>
             {{ link.content }}
           </a>
           {% elsif link.type == 'dropdown' %}
@@ -58,3 +58,4 @@
   <!-- /Main Menu -->
 
 </header>
+<div class="navbar-padding"></div>

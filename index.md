@@ -2,7 +2,7 @@
 layout: main
 ---
 
-<div class="row pt-5">
+<div class="row page-title">
   <div class="col-12">
     <h1>Welcome to the Colorado Robotics Community</h1>
   </div>
@@ -50,11 +50,11 @@ layout: main
   </div>
 </div>
 
-<hr class="pt-5"/>
+<hr/>
 
 <div class="row">
   <div class="col">
-    <h3 class="text-center">ColoRobo Sponsors</h3>
+    <h2 class="text-center">ColoRobo Sponsors</h2>
 
     <div class="row">
       <div class="col text-center">

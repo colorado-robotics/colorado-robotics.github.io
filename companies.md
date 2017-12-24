@@ -71,7 +71,7 @@ companies:
     logo: tortuga.jpg
 ---
 
-# Colorado Robotics and AI Companies
+<h1 class="page-title">Colorado Robotics and AI Companies</h1>
 
 <div class="card-deck w-100">
 

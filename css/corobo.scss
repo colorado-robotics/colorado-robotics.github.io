@@ -14,9 +14,9 @@ $color-background-link: $catalina-blue;
 $navbar-background: $catalina-blue-light;
 $navbar-text: $white;
 
-$font-header: "Roboto";
-$font-body: "Roboto";
-$font-weight: 300;
+$font-header: "Raleway";
+$font-body: "Raleway";
+$font-weight: 200;
 
 
 a {
@@ -57,8 +57,13 @@ h1 {
     background: $navbar-background;
     color: $navbar-text;
     padding: 10px 0 10px;
-    border-bottom: 5px solid $color-background-font;
-    border-top: 3px solid $color-background-font;
+    border-bottom: 1px solid $color-background-font;
+    border-top: 1px solid $color-background-font;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 9999;
 
     .navbar-brand {
         color: $navbar-text;
@@ -104,6 +109,30 @@ h1 {
             }
         }
     }
+}
+
+.small-caps {
+    font-variant: small-caps;
+    font-weight: 500;
+}
+
+.tall-caps {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.navbar-padding {
+    height: 67px;
+    width: 100%;
+}
+
+.page-title {
+    padding-top: 3rem!important;
+}
+
+hr {
+    border-color: $international-orange;
+    //color: $international-orange;
 }
 
 
@@ -165,6 +194,7 @@ footer {
     height: 220px;
     position: relative;
     top: 0;
+    z-index: 100;
 
     .company-card-logo {
         max-height: 90%;
