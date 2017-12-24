@@ -58,7 +58,8 @@ layout: main
 
     <div class="row">
       <div class="col text-center">
-        {% include bifr_sponsors.html %}
+          <h4>We're seeking sponsorship to encourage growth in Colorado Robotics!</h4>
+          Get in touch at sponsors@corobo.org
       </div>
     </div>
   </div>
