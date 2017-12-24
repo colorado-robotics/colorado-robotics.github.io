@@ -1,11 +1,11 @@
 <header class="main-header">
 
-  <nav class="navbar navbar-expand-md navbar-light">
+  <nav class="navbar navbar-expand-md navbar-dark">
     <a class="navbar-brand mb-0" href="{{url}}/">
       <img src="images/colorado-flag-robot-head.png"
            class="align-text-bottom"
            style="width: 2rem; height: 2rem;"/>
-      <span class="h3">ColoRobo</span>
+      <span class="h3">CoRobo</span>
     </a>
 
     <button type="button"
@@ -16,8 +16,8 @@
     </button>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="navbar-collapse">
-      <ul class="navbar-nav justify-content-center w-100">
+    <div class="collapse navbar-collapse abs-center-x" id="navbar-collapse">
+      <ul class="navbar-nav text-center">
         {% for link in site.header_links %}
         <li class="nav-item">
           {% if link.type == 'link' %}

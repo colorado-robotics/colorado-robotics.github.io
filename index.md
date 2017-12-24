@@ -9,12 +9,12 @@ layout: main
 </div>
 
 <div class="row pt-5 pb-5">
-  <div id="cal-box" class="col text-center border rounded px-3 pt-3 pb-4 mx-4">
+  <div id="cal-box" class="col text-center border box px-3 pt-3 pb-4 mx-4">
     <h3>Community Event Calendar</h3>
     <div id="community-calendar" class="container-fluid"></div>
   </div>
 
-  <div id="recentEventSlideshow" class="col text-center pt-3 pb-4">
+  <div id="recentEventSlideshow" class="col text-center box pt-3 pb-4 mx-4">
     <h3>Recent Events</h3>
     <div id="recentEventCarousel" class="carousel slide rounded"
          data-ride="carousel">
