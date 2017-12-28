@@ -57,9 +57,9 @@ meetups_list: &meetup_list
     url: https://www.meetup.com/SHARC-Greater-Denver-Area-Robotics-Club/
 
 header_links:
-  - url: "/"
-    type: link
-    content: Home
+  # - url: "/"
+  #   type: link
+  #   content: Home
 
   - content: Meetups
     type: dropdown

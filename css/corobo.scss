@@ -67,7 +67,9 @@ h1 {
 
     .navbar-brand {
         color: $navbar-text;
-        margin-left: 10px;
+        margin-left: 30px;
+        padding-top: 0px;
+        padding-bottom: 0px;
     }
     .navbar-link {
         color: $navbar-text;
@@ -77,6 +79,10 @@ h1 {
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
+    }
+
+    .dropdown-menu {
+        background: $navbar-background;
     }
 
     a {

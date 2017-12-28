@@ -36,13 +36,17 @@ h1 {
   z-index: 9999; }
   .navbar .navbar-brand {
     color: #ffffff;
-    margin-left: 10px; }
+    margin-left: 30px;
+    padding-top: 0px;
+    padding-bottom: 0px; }
   .navbar .navbar-link {
     color: #ffffff; }
   .navbar .abs-center-x {
     position: absolute;
     left: 50%;
     transform: translateX(-50%); }
+  .navbar .dropdown-menu {
+    background: rgba(16, 46, 130, 0.8); }
   .navbar a {
     color: #ffffff; }
   .navbar .nav li a {
