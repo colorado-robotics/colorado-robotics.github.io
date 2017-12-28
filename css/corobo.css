@@ -90,18 +90,18 @@ footer {
 .box {
   border-radius: 0.25rem !important; }
 
-#community-calendar {
-  overflow-y: scroll;
-  background-color: white;
-  color: black;
-  height: 330px; }
-  #community-calendar .calendar-event {
-    padding-top: 5px;
-    padding-bottom: 5px; }
-
 #cal-box {
   background-color: rgba(16, 46, 130, 0.8);
-  color: white; }
+  color: white;
+  height: 400px; }
+  #cal-box #community-calendar {
+    overflow-y: scroll;
+    background-color: white;
+    color: black;
+    height: 90%; }
+    #cal-box #community-calendar .calendar-event {
+      padding-top: 5px;
+      padding-bottom: 5px; }
 
 .sponsor-card .sponsor-image {
   max-height: 100px;

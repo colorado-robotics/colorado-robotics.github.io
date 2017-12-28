@@ -149,21 +149,22 @@ footer {
     border-radius: .25rem!important;
 }
 
-#community-calendar {
-    overflow-y: scroll;
-    background-color: white;
-    color: black;
-    height: 330px;
-
-    .calendar-event {
-        padding-top: 5px;
-        padding-bottom: 5px;
-    }
-}
-
 #cal-box {
     background-color: $catalina-blue-light;
     color: white;
+    height: 400px;
+
+    #community-calendar {
+        overflow-y: scroll;
+        background-color: white;
+        color: black;
+        height: 90%;
+
+        .calendar-event {
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+    }
 }
 
 .sponsor-card {
