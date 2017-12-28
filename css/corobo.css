@@ -117,19 +117,24 @@ footer {
     bottom: -20px;
     top: auto; }
 
-.company-card-logo-container {
-  height: 220px;
-  position: relative;
-  top: 0;
-  z-index: 100; }
-  .company-card-logo-container .company-card-logo {
-    max-height: 90%;
-    max-width: 90%;
-    position: absolute;
-    margin: auto;
+.company-card {
+  border-color: rgba(16, 46, 130, 0.8); }
+  .company-card .company-card-logo-container {
+    height: 220px;
+    position: relative;
     top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0; }
+    z-index: 100; }
+    .company-card .company-card-logo-container .company-card-logo {
+      max-height: 90%;
+      max-width: 90%;
+      position: absolute;
+      margin: auto;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0; }
+  .company-card .card-footer {
+    background-color: rgba(16, 46, 130, 0.8);
+    color: white; }
 
 /*# sourceMappingURL=corobo.css.map */
