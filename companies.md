@@ -69,6 +69,11 @@ companies:
     url: http://www.tortugaagtech.com/
     location: Lakewood
     logo: tortuga.jpg
+
+  - name: Road Narrows Robotics
+    url: https://roadnarrows.com/
+    location: Loveland
+    logo: roadnarrows.png
 ---
 
 <h1 class="page-title">Colorado Robotics and AI Companies</h1>
@@ -76,8 +81,9 @@ companies:
 <div class="card-deck w-100">
 
 {% assign companies = page.companies | sort: 'name' %}
+<div class="row">
 {% for co in companies %}
-<div class="col-lg-3 col-md-4 col mt-5">
+<div class="col-lg-3 col-md-4 col-12 mt-5">
   <div class="card text-center inline-block company-card">
     <div class="card-img-top company-card-logo-container align-middle">
         <img class="mx-auto company-card-logo"
@@ -96,5 +102,6 @@ src="images/companies/{{ co.logo }}"
   </div>
 </div>
 {% endfor %}
+</div>
 
 </div>
