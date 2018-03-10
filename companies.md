@@ -74,6 +74,11 @@ companies:
     url: https://roadnarrows.com/
     location: Loveland
     logo: roadnarrows.png
+
+  - name: Bleum Robotics
+    url: http://www.bleum.com/warehouse-robotics/
+    location: Englewood
+    logo: bleum.png
 ---
 
 <h1 class="page-title">Colorado Robotics and AI Companies</h1>
