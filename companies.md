@@ -79,6 +79,11 @@ companies:
     url: http://www.bleum.com/warehouse-robotics/
     location: Englewood
     logo: bleum.png
+
+  - name: Scythe Robotics
+    url: scytherobotics.com
+    location: Boulder
+    logo: scythe-robotics.png
 ---
 
 <h1 class="page-title">Colorado Robotics and AI Companies</h1>
