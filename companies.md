@@ -6,77 +6,77 @@ layout: main
 # TODO: Add logos, description, location.
 companies:
   - name: Gamma 2 Robotics
-    url: http://gamma2robotics.com
+    url: gamma2robotics.com
     location: Lakewood
     logo: gamma2.png
 
   - name: Occipital
-    url: http://occipital.com
+    url: occipital.com
     location: Boulder
     logo: occipital.jpg
 
   - name: Sphero
-    url: http://sphero.com
+    url: sphero.com
     location: Boulder
     logo: sphero.jpg
 
   - name: Misty Robotics
-    url: http://mistyrobotics.com
+    url: mistyrobotics.com
     location: Boulder
     logo: misty.svg
 
   - name: Lefthand Robotics
-    url: http://lefthandrobotics.com
+    url: lefthandrobotics.com
     location: Longmont
     logo: lefthand.jpg
 
   - name: AMP Robotics
-    url: https://www.amprobotics.com
+    url: amprobotics.com
     location: Denver
     logo: amp.png
 
   - name: ThinkTopic
-    url: http://thinktopic.com
+    url: thinktopic.com
     location: Boulder
     logo: thinktopic.png
 
   - name: PickNik Consulting
-    url: http://picknik.ai
+    url: picknik.ai
     location: Boulder
     logo: picknik.jpg
 
   - name: Canvas Technology
-    url: http://canvas.technology
+    url: canvas.technology
     location: Boulder
     logo: canvas.jpg
 
   - name: Modular Robotics
-    url: http://modrobotics.com
+    url: modrobotics.com
     location: Boulder
     logo: modrobotics.png
     
   - name: Wolf Robotics
-    url: http://wolfrobotics.com
+    url: wolfrobotics.com
     location: Fort Collins
     logo: wolf.jpg
 
   - name: Robotic Materials
-    url: https://roboticmaterials.com/rm/
+    url: roboticmaterials.com/rm
     location: Boulder
     logo: rm.png
 
   - name: Tortuga AgTech
-    url: http://www.tortugaagtech.com/
+    url: tortugaagtech.com
     location: Lakewood
     logo: tortuga.jpg
 
   - name: Road Narrows Robotics
-    url: https://roadnarrows.com/
+    url: roadnarrows.com
     location: Loveland
     logo: roadnarrows.png
 
   - name: Bleum Robotics
-    url: http://www.bleum.com/warehouse-robotics/
+    url: bleum.com/warehouse-robotics
     location: Englewood
     logo: bleum.png
 
