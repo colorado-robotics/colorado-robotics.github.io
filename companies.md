@@ -5,11 +5,6 @@ layout: main
 
 # TODO: Add logos, description, location.
 companies:
-  - name: Gamma 2 Robotics
-    url: gamma2robotics.com
-    location: Lakewood
-    logo: gamma2.png
-
   - name: Occipital
     url: occipital.com
     location: Boulder
