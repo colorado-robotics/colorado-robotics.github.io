@@ -75,10 +75,10 @@ companies:
     location: Loveland
     logo: roadnarrows.png
 
-  - name: Bleum Robotics
-    url: bleum.com/warehouse-robotics
+  - name: Prime Robotics
+    url: primerobotics.com
     location: Englewood
-    logo: bleum.png
+    logo: prime.png
 
   - name: Scythe Robotics
     url: scytherobotics.com
@@ -90,6 +90,15 @@ companies:
     location: Longmont
     logo: honeybee.png
 
+  - name: Titan Robotics
+    url: titan3drobotics.com
+    location: Colorado Springs
+    logo: titan.png
+
+  - name: DreamFace Technologies
+    url: dreamfacetech.com
+    location: Denver
+    logo: dreamface.png
 ---
 
 <h1 class="page-title">Colorado Robotics and AI Companies</h1>
