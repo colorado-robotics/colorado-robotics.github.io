@@ -84,6 +84,12 @@ companies:
     url: scytherobotics.com
     location: Boulder
     logo: scythe-robotics.png
+    
+  - name: Honeybee Robotics
+    url: honeybeerobotics.com
+    location: Longmont
+    logo: honeybee.png
+
 ---
 
 <h1 class="page-title">Colorado Robotics and AI Companies</h1>
