@@ -30,11 +30,6 @@ companies:
     location: Denver
     logo: amp.png
 
-  - name: ThinkTopic
-    url: thinktopic.com
-    location: Boulder
-    logo: thinktopic.png
-
   - name: PickNik Consulting
     url: picknik.ai
     location: Boulder
