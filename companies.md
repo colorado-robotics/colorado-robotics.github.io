@@ -103,7 +103,7 @@ src="images/companies/{{ co.logo }}"
 
     <div class="card-body">
       <h5>{{ co.name }}</h5>
-      <p><a href="{{ co.url }}">{{ co.url }}</a></p>
+      <p><a href="http://{{ co.url }}">{{ co.url }}</a></p>
     </div>
 
     <div class="card-footer">
