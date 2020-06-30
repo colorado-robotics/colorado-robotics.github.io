@@ -89,6 +89,21 @@ companies:
     url: dreamfacetech.com
     location: Denver
     logo: dreamface.png
+  
+  - name: PlusOne Robotics
+    url: plusonerobotics.com
+    location: Boulder
+    logo: plusone.png
+  
+  - name: WinterWinds Robotics
+    url: www.winterwinds.io
+    location: Longmont
+    logo: winterwinds.png
+
+  - name: RocaRobotics
+    url: www.rocarobotics.com
+    location: Boulder
+    logo: roca.png
 ---
 
 <h1 class="page-title">Colorado Robotics and AI Companies</h1>
