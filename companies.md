@@ -5,6 +5,11 @@ layout: main
 
 # TODO: Add logos, description, location.
 companies:
+  - name: Artimus Robotics
+    url: https://www.artimusrobotics.com/
+    location: Boulder
+    logo: Artimus.jpg
+
   - name: Occipital
     url: occipital.com
     location: Boulder
