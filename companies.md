@@ -8,7 +8,7 @@ companies:
   - name: Artimus Robotics
     url: https://www.artimusrobotics.com/
     location: Boulder
-    logo: Artimus.jpg
+    logo: Artimus.png
 
   - name: Occipital
     url: occipital.com
